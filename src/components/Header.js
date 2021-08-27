@@ -1,5 +1,5 @@
-import React from 'react';
-import Button from './Button';
+import React from "react";
+import Button from "./Button";
 //import PropTypes from 'prop-types';
 
 const Header = ({ title, showAddTask, toggleShow }) => {
@@ -7,8 +7,8 @@ const Header = ({ title, showAddTask, toggleShow }) => {
     <header className="header">
       <h1>{title}</h1>
       <Button
-        color={showAddTask ? 'red' : 'purple'}
-        text={showAddTask ? 'Close Add Task Bar' : 'Show Add Task Bar'}
+        color={showAddTask ? "red" : "purple"}
+        text={showAddTask ? "Close Add Task Bar" : "Show Add Task Bar"}
         toggleShow={toggleShow}
       />
     </header>
